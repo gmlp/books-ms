@@ -1,4 +1,4 @@
-node("cd") {
+node("master") {
     def serviceName = "books-ms"
     def prodIp = "10.100.198.201"
     def proxyIp = "10.100.198.201"
