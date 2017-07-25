@@ -3,7 +3,7 @@ node("cd") {
     def prodIp = "10.100.198.201"
     def proxyIp = "10.100.198.201"
     def proxyNode = "prod"
-    def registryIpPort = "10.100.198.200:5000"
+    def registryIpPort = "192.168.1.100:5000"
 
     def flow = load "/data/scripts/workflow-util.groovy"
 
